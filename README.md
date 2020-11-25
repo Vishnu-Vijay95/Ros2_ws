@@ -11,6 +11,12 @@ The Ros2_ws directory contains ros2 packages which are:
 
 4. A CPP package cpp_srvcli for implementing service client implementation in ROS2 
 
-5. A <h1>PYTHON</h1> package py_srvcli for implementing service client implementation in ROS2
+5. A PYTHON package py_srvcli for implementing service client implementation in ROS2
 
+<h1>Steps to build</h1>
 
+1. Clone repository to local WS
+
+2. build using command <b>colcon build --packages-select <package_name></b>
+
+3. run package using command <b>ros2 run <pkg_name> <node_name></b>
