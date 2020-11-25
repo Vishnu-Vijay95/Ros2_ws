@@ -1,0 +1,7 @@
+CMake Error at CMakeLists.txt:20 (ament_package):
+  Unknown CMake command "ament_package".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".
+See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeError.log".

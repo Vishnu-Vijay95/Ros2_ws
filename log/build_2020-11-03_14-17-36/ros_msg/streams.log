@@ -1,0 +1,79 @@
+[0.030s] Invoking command in '/home/ign/Desktop/ros2_ws/build/ros_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/ros_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/ros_msg
+[0.123s] -- The C compiler identification is GNU 7.5.0
+[0.202s] -- The CXX compiler identification is GNU 7.5.0
+[0.206s] -- Check for working C compiler: /usr/bin/cc
+[0.314s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.316s] -- Detecting C compiler ABI info
+[0.425s] -- Detecting C compiler ABI info - done
+[0.434s] -- Detecting C compile features
+[0.718s] -- Detecting C compile features - done
+[0.721s] -- Check for working CXX compiler: /usr/bin/c++
+[0.826s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.826s] -- Detecting CXX compiler ABI info
+[0.933s] -- Detecting CXX compiler ABI info - done
+[0.939s] -- Detecting CXX compile features
+[1.384s] -- Detecting CXX compile features - done
+[1.387s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.424s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.424s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.684s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.708s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.735s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.788s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.791s] -- Looking for pthread.h
+[1.886s] -- Looking for pthread.h - found
+[1.887s] -- Looking for pthread_create
+[1.981s] -- Looking for pthread_create - not found
+[1.981s] -- Looking for pthread_create in pthreads
+[2.060s] -- Looking for pthread_create in pthreads - not found
+[2.060s] -- Looking for pthread_create in pthread
+[2.158s] -- Looking for pthread_create in pthread - found
+[2.159s] -- Found Threads: TRUE  
+[2.206s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[2.213s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[2.501s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[2.531s] -- Found FastRTPS: /opt/ros/dashing/include  
+[2.665s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.813s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[2.891s] CMake Error at /opt/ros/dashing/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[2.892s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name ros_msg
+[2.892s]   --arguments-file
+[2.892s]   /home/ign/Desktop/ros2_ws/build/ros_msg/rosidl_adapter__arguments__new_msg.json
+[2.892s]   --output-dir /home/ign/Desktop/ros2_ws/build/ros_msg/rosidl_adapter/ros_msg
+[2.892s]   --output-file
+[2.892s]   /home/ign/Desktop/ros2_ws/build/ros_msg/rosidl_adapter/new_msg.idls)
+[2.892s]   returned error code 1:
+[2.892s] 
+[2.892s]   Traceback (most recent call last):
+[2.892s] 
+[2.893s]     File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+[2.893s]       "__main__", mod_spec)
+[2.893s]     File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+[2.893s]       exec(code, run_globals)
+[2.893s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.893s]       sys.exit(main())
+[2.893s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main
+[2.893s]       pathlib.Path(relative_path), output_dir)
+[2.893s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl
+[2.893s]       package_dir, package_name, interface_file, output_dir / 'msg')
+[2.893s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[2.894s]       msg = parse_message_string(package_name, input_file.stem, content)
+[2.894s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 522, in parse_message_string
+[2.894s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[2.894s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 373, in __init__
+[2.894s]       pkg_name + PACKAGE_NAME_MESSAGE_TYPE_SEPARATOR + msg_name)
+[2.894s]     File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 196, in __init__
+[2.894s]       raise InvalidResourceName(self.type)
+[2.894s] 
+[2.894s]   rosidl_adapter.parser.InvalidResourceName: mymsg
+[2.894s] 
+[2.895s] Call Stack (most recent call first):
+[2.895s]   /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.895s]   CMakeLists.txt:40 (rosidl_generate_interfaces)
+[2.895s] 
+[2.895s] 
+[2.895s] -- Configuring incomplete, errors occurred!
+[2.895s] See also "/home/ign/Desktop/ros2_ws/build/ros_msg/CMakeFiles/CMakeOutput.log".
+[2.895s] See also "/home/ign/Desktop/ros2_ws/build/ros_msg/CMakeFiles/CMakeError.log".
+[2.900s] Invoked command in '/home/ign/Desktop/ros2_ws/build/ros_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/ros_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/ros_msg

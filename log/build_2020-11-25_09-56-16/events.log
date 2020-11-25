@@ -1,0 +1,422 @@
+[0.000000] (-) TimerEvent: {}
+[0.000214] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000971] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001622] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001671] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001727] (custom_msg) JobQueued: {'identifier': 'custom_msg', 'dependencies': OrderedDict()}
+[0.001787] (custom_msg) JobStarted: {'identifier': 'custom_msg'}
+[0.022993] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'cmake'}
+[0.023165] (custom_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/ign/Desktop/ros2_ws/src/custom_msg', '-DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/custom_msg'], 'cwd': '/home/ign/Desktop/ros2_ws/build/custom_msg', 'env': OrderedDict([('CLUTTER_IM_MODULE', 'xim'), ('LC_ALL', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_MENU_PREFIX', 'gnome-'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LANG', 'en_US.UTF-8'), ('MANAGERPID', '3873'), ('DISPLAY', ':0'), ('OLDPWD', '/home/ign/Desktop/ros2_ws/src'), ('INVOCATION_ID', '288d171c01234fb29c8b2d5ea045fa09'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('COLORTERM', 'truecolor'), ('USERNAME', 'ign'), ('XDG_VTNR', '2'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_SESSION_ID', '2'), ('USER', 'ign'), ('DESKTOP_SESSION', 'ubuntu'), ('QT4_IM_MODULE', 'xim'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15bdf09b_2bb4_4dee_82e3_9b0f3748b45c'), ('PWD', '/home/ign/Desktop/ros2_ws/build/custom_msg'), ('COLCON', '1'), ('HOME', '/home/ign'), ('JOURNAL_STREAM', '9:45814'), ('TEXTDOMAIN', 'im-config'), ('SSH_AGENT_PID', '4002'), ('QT_ACCESSIBILITY', '1'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/src/custom_msg/srv/install:/home/ign/Desktop/ros2_ws/srv/install'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=abf6c4c750a52beafdc799015fbb2ec7'), ('ROS_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge'), ('WINDOWPATH', '2'), ('VTE_VERSION', '5202'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('ROS_PYTHON_VERSION', '3'), ('QT_IM_MODULE', 'ibus'), ('XMODIFIERS', '@im=ibus'), ('IM_CONFIG_PHASE', '2'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SHLVL', '2'), ('XDG_SEAT', 'seat0'), ('LANGUAGE', 'en_IN:en'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('GDMSESSION', 'ubuntu'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LOGNAME', 'ign'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=abf6c4c750a52beafdc799015fbb2ec7'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PATH', '/opt/ros/dashing/bin:/home/ign/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IGNKO-Vostro-15-3568:@/tmp/.ICE-unix/3907,unix/IGNKO-Vostro-15-3568:/tmp/.ICE-unix/3907'), ('ROS_DISTRO', 'dashing'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.098894] (-) TimerEvent: {}
+[0.200542] (-) TimerEvent: {}
+[0.301486] (-) TimerEvent: {}
+[0.402265] (-) TimerEvent: {}
+[0.502973] (-) TimerEvent: {}
+[0.603980] (-) TimerEvent: {}
+[0.704836] (-) TimerEvent: {}
+[0.805550] (-) TimerEvent: {}
+[0.906455] (-) TimerEvent: {}
+[1.007233] (-) TimerEvent: {}
+[1.108235] (-) TimerEvent: {}
+[1.209101] (-) TimerEvent: {}
+[1.310303] (-) TimerEvent: {}
+[1.411230] (-) TimerEvent: {}
+[1.511947] (-) TimerEvent: {}
+[1.612832] (-) TimerEvent: {}
+[1.713679] (-) TimerEvent: {}
+[1.814560] (-) TimerEvent: {}
+[1.915400] (-) TimerEvent: {}
+[2.016368] (-) TimerEvent: {}
+[2.099481] (custom_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[2.116539] (-) TimerEvent: {}
+[2.217006] (-) TimerEvent: {}
+[2.317795] (-) TimerEvent: {}
+[2.418600] (-) TimerEvent: {}
+[2.519520] (-) TimerEvent: {}
+[2.620697] (-) TimerEvent: {}
+[2.721925] (-) TimerEvent: {}
+[2.822838] (-) TimerEvent: {}
+[2.923717] (-) TimerEvent: {}
+[3.024710] (-) TimerEvent: {}
+[3.125584] (-) TimerEvent: {}
+[3.226717] (-) TimerEvent: {}
+[3.327732] (-) TimerEvent: {}
+[3.428514] (-) TimerEvent: {}
+[3.473878] (custom_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[3.528770] (-) TimerEvent: {}
+[3.574606] (custom_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.629027] (-) TimerEvent: {}
+[3.729659] (-) TimerEvent: {}
+[3.752306] (custom_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.776185] (custom_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.829803] (-) TimerEvent: {}
+[3.900717] (custom_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.907223] (custom_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.930002] (-) TimerEvent: {}
+[4.030399] (-) TimerEvent: {}
+[4.131010] (-) TimerEvent: {}
+[4.231377] (-) TimerEvent: {}
+[4.276337] (custom_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.295733] (custom_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.331515] (-) TimerEvent: {}
+[4.401283] (custom_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.402127] (custom_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.431672] (-) TimerEvent: {}
+[4.509429] (custom_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.515429] (custom_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.531800] (-) TimerEvent: {}
+[4.632217] (-) TimerEvent: {}
+[4.732552] (-) TimerEvent: {}
+[4.832902] (-) TimerEvent: {}
+[4.933300] (-) TimerEvent: {}
+[4.972267] (custom_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.033617] (-) TimerEvent: {}
+[5.064628] (custom_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[5.133736] (-) TimerEvent: {}
+[5.171578] (custom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[5.171849] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.233945] (-) TimerEvent: {}
+[5.334304] (-) TimerEvent: {}
+[5.434650] (-) TimerEvent: {}
+[5.535062] (-) TimerEvent: {}
+[5.635577] (-) TimerEvent: {}
+[5.696771] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[5.735803] (-) TimerEvent: {}
+[5.836660] (-) TimerEvent: {}
+[5.937500] (-) TimerEvent: {}
+[6.038355] (-) TimerEvent: {}
+[6.139113] (-) TimerEvent: {}
+[6.240070] (-) TimerEvent: {}
+[6.316311] (custom_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[6.340264] (-) TimerEvent: {}
+[6.396556] (custom_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[6.440492] (-) TimerEvent: {}
+[6.541117] (-) TimerEvent: {}
+[6.621427] (custom_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[6.641355] (-) TimerEvent: {}
+[6.741944] (-) TimerEvent: {}
+[6.842350] (-) TimerEvent: {}
+[6.942886] (-) TimerEvent: {}
+[6.976345] (custom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[7.043049] (-) TimerEvent: {}
+[7.143364] (-) TimerEvent: {}
+[7.243809] (-) TimerEvent: {}
+[7.261945] (custom_msg) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[7.344022] (-) TimerEvent: {}
+[7.344849] (custom_msg) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[7.444171] (-) TimerEvent: {}
+[7.544665] (-) TimerEvent: {}
+[7.613000] (custom_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[7.644816] (-) TimerEvent: {}
+[7.674361] (custom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[7.676341] (custom_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)\n'}
+[7.745029] (-) TimerEvent: {}
+[7.845700] (-) TimerEvent: {}
+[7.861926] (custom_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[7.862785] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.863160] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[7.863665] (custom_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[7.921207] (custom_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.945801] (-) TimerEvent: {}
+[8.046225] (-) TimerEvent: {}
+[8.146629] (-) TimerEvent: {}
+[8.221196] (custom_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[8.246808] (-) TimerEvent: {}
+[8.347329] (-) TimerEvent: {}
+[8.448170] (-) TimerEvent: {}
+[8.487221] (custom_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[8.528484] (custom_msg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.547884] (custom_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.548436] (-) TimerEvent: {}
+[8.573616] (custom_msg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[8.587135] (custom_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.631507] (custom_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.648627] (-) TimerEvent: {}
+[8.749225] (-) TimerEvent: {}
+[8.818159] (custom_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[8.822319] (custom_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/ign/Desktop/ros2_ws/build/custom_msg\n'}
+[8.827617] (custom_msg) CommandEnded: {'returncode': 0}
+[8.828814] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'build'}
+[8.831477] (custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ign/Desktop/ros2_ws/build/custom_msg', '--', '-j4', '-l4'], 'cwd': '/home/ign/Desktop/ros2_ws/build/custom_msg', 'env': OrderedDict([('CLUTTER_IM_MODULE', 'xim'), ('LC_ALL', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_MENU_PREFIX', 'gnome-'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LANG', 'en_US.UTF-8'), ('MANAGERPID', '3873'), ('DISPLAY', ':0'), ('OLDPWD', '/home/ign/Desktop/ros2_ws/src'), ('INVOCATION_ID', '288d171c01234fb29c8b2d5ea045fa09'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('COLORTERM', 'truecolor'), ('USERNAME', 'ign'), ('XDG_VTNR', '2'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_SESSION_ID', '2'), ('USER', 'ign'), ('DESKTOP_SESSION', 'ubuntu'), ('QT4_IM_MODULE', 'xim'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15bdf09b_2bb4_4dee_82e3_9b0f3748b45c'), ('PWD', '/home/ign/Desktop/ros2_ws/build/custom_msg'), ('COLCON', '1'), ('HOME', '/home/ign'), ('JOURNAL_STREAM', '9:45814'), ('TEXTDOMAIN', 'im-config'), ('SSH_AGENT_PID', '4002'), ('QT_ACCESSIBILITY', '1'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/src/custom_msg/srv/install:/home/ign/Desktop/ros2_ws/srv/install'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=abf6c4c750a52beafdc799015fbb2ec7'), ('ROS_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge'), ('WINDOWPATH', '2'), ('VTE_VERSION', '5202'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('ROS_PYTHON_VERSION', '3'), ('QT_IM_MODULE', 'ibus'), ('XMODIFIERS', '@im=ibus'), ('IM_CONFIG_PHASE', '2'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SHLVL', '2'), ('XDG_SEAT', 'seat0'), ('LANGUAGE', 'en_IN:en'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('GDMSESSION', 'ubuntu'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LOGNAME', 'ign'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=abf6c4c750a52beafdc799015fbb2ec7'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PATH', '/opt/ros/dashing/bin:/home/ign/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IGNKO-Vostro-15-3568:@/tmp/.ICE-unix/3907,unix/IGNKO-Vostro-15-3568:/tmp/.ICE-unix/3907'), ('ROS_DISTRO', 'dashing'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[8.849362] (-) TimerEvent: {}
+[8.890874] (custom_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.891238] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__cpp\x1b[0m\n'}
+[8.906595] (custom_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.949473] (-) TimerEvent: {}
+[9.049998] (-) TimerEvent: {}
+[9.150390] (-) TimerEvent: {}
+[9.251194] (-) TimerEvent: {}
+[9.351563] (-) TimerEvent: {}
+[9.451963] (-) TimerEvent: {}
+[9.552331] (-) TimerEvent: {}
+[9.652646] (-) TimerEvent: {}
+[9.696630] (custom_msg) StdoutLine: {'line': b'[  5%] Built target custom_msg__cpp\n'}
+[9.719780] (custom_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.721118] (custom_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.752757] (-) TimerEvent: {}
+[9.814715] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_generator_c\x1b[0m\n'}
+[9.852881] (-) TimerEvent: {}
+[9.869839] (custom_msg) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/msg/num__functions.c.o\x1b[0m\n'}
+[9.870990] (custom_msg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/srv/add_three_ints__functions.c.o\x1b[0m\n'}
+[9.953012] (-) TimerEvent: {}
+[10.053339] (-) TimerEvent: {}
+[10.153670] (-) TimerEvent: {}
+[10.254079] (-) TimerEvent: {}
+[10.308680] (custom_msg) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_generator_c.so\x1b[0m\n'}
+[10.354181] (-) TimerEvent: {}
+[10.375319] (custom_msg) StdoutLine: {'line': b'[ 18%] Built target custom_msg__rosidl_generator_c\n'}
+[10.397928] (custom_msg) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.454307] (-) TimerEvent: {}
+[10.523654] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[10.536329] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[10.554430] (-) TimerEvent: {}
+[10.654753] (-) TimerEvent: {}
+[10.686864] (custom_msg) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[10.691992] (custom_msg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/msg/num__type_support.cpp.o\x1b[0m\n'}
+[10.754963] (-) TimerEvent: {}
+[10.855340] (-) TimerEvent: {}
+[10.916180] (custom_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/msg/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[10.948683] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.955515] (-) TimerEvent: {}
+[11.000780] (custom_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/msg/num__type_support.c.o\x1b[0m\n'}
+[11.038061] (custom_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/srv/add_three_ints__type_support.c.o\x1b[0m\n'}
+[11.055654] (-) TimerEvent: {}
+[11.076920] (custom_msg) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking C shared library libcustom_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.119052] (custom_msg) StdoutLine: {'line': b'[ 37%] Built target custom_msg__rosidl_typesupport_introspection_c\n'}
+[11.134770] (custom_msg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/srv/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[11.155761] (-) TimerEvent: {}
+[11.256118] (-) TimerEvent: {}
+[11.356608] (-) TimerEvent: {}
+[11.457229] (-) TimerEvent: {}
+[11.557856] (-) TimerEvent: {}
+[11.658707] (-) TimerEvent: {}
+[11.759544] (-) TimerEvent: {}
+[11.860061] (-) TimerEvent: {}
+[11.961225] (-) TimerEvent: {}
+[12.061761] (-) TimerEvent: {}
+[12.162329] (-) TimerEvent: {}
+[12.263068] (-) TimerEvent: {}
+[12.363492] (-) TimerEvent: {}
+[12.463925] (-) TimerEvent: {}
+[12.537084] (custom_msg) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.564051] (-) TimerEvent: {}
+[12.621809] (custom_msg) StdoutLine: {'line': b'[ 43%] Built target custom_msg__rosidl_typesupport_introspection_cpp\n'}
+[12.664174] (-) TimerEvent: {}
+[12.764602] (-) TimerEvent: {}
+[12.865009] (-) TimerEvent: {}
+[12.886094] (custom_msg) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.965264] (-) TimerEvent: {}
+[13.065873] (-) TimerEvent: {}
+[13.103244] (custom_msg) StdoutLine: {'line': b'[ 45%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[13.125099] (custom_msg) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.125313] (custom_msg) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.166109] (-) TimerEvent: {}
+[13.266550] (-) TimerEvent: {}
+[13.366922] (-) TimerEvent: {}
+[13.467287] (-) TimerEvent: {}
+[13.547350] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[13.567389] (-) TimerEvent: {}
+[13.602145] (custom_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/msg/num__type_support.cpp.o\x1b[0m\n'}
+[13.605050] (custom_msg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[13.650038] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[13.667512] (-) TimerEvent: {}
+[13.717893] (custom_msg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/msg/num__type_support_c.cpp.o\x1b[0m\n'}
+[13.725298] (custom_msg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/srv/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[13.767661] (-) TimerEvent: {}
+[13.868139] (-) TimerEvent: {}
+[13.968535] (-) TimerEvent: {}
+[14.068937] (-) TimerEvent: {}
+[14.169326] (-) TimerEvent: {}
+[14.269745] (-) TimerEvent: {}
+[14.299045] (custom_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.369878] (-) TimerEvent: {}
+[14.387766] (custom_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.443556] (custom_msg) StdoutLine: {'line': b'[ 67%] Built target custom_msg__rosidl_typesupport_cpp\n'}
+[14.470006] (-) TimerEvent: {}
+[14.513824] (custom_msg) StdoutLine: {'line': b'[ 67%] Built target custom_msg__rosidl_typesupport_fastrtps_c\n'}
+[14.528497] (custom_msg) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.570229] (-) TimerEvent: {}
+[14.670609] (-) TimerEvent: {}
+[14.770965] (-) TimerEvent: {}
+[14.871491] (-) TimerEvent: {}
+[14.972300] (-) TimerEvent: {}
+[15.001378] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_c\x1b[0m\n'}
+[15.025499] (custom_msg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/msg/num__type_support.cpp.o\x1b[0m\n'}
+[15.025724] (custom_msg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[15.067353] (custom_msg) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.072432] (-) TimerEvent: {}
+[15.137817] (custom_msg) StdoutLine: {'line': b'[ 78%] Built target custom_msg__rosidl_typesupport_c\n'}
+[15.152597] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg\x1b[0m\n'}
+[15.167452] (custom_msg) StdoutLine: {'line': b'[ 78%] Built target custom_msg\n'}
+[15.172566] (-) TimerEvent: {}
+[15.182457] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__py\x1b[0m\n'}
+[15.197660] (custom_msg) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.272702] (-) TimerEvent: {}
+[15.373056] (-) TimerEvent: {}
+[15.473488] (-) TimerEvent: {}
+[15.573830] (-) TimerEvent: {}
+[15.674171] (-) TimerEvent: {}
+[15.774501] (-) TimerEvent: {}
+[15.874928] (-) TimerEvent: {}
+[15.975302] (-) TimerEvent: {}
+[16.075644] (-) TimerEvent: {}
+[16.079413] (custom_msg) StdoutLine: {'line': b'[ 81%] Built target custom_msg__py\n'}
+[16.094188] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__python\x1b[0m\n'}
+[16.175911] (-) TimerEvent: {}
+[16.276618] (-) TimerEvent: {}
+[16.286666] (custom_msg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/custom_msg__python.dir/rosidl_generator_py/custom_msg/msg/_num_s.c.o\x1b[0m\n'}
+[16.286904] (custom_msg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/custom_msg__python.dir/rosidl_generator_py/custom_msg/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[16.376892] (-) TimerEvent: {}
+[16.477713] (-) TimerEvent: {}
+[16.578097] (-) TimerEvent: {}
+[16.673888] (custom_msg) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/libcustom_msg__python.so\x1b[0m\n'}
+[16.678209] (-) TimerEvent: {}
+[16.745740] (custom_msg) StdoutLine: {'line': b'[ 89%] Built target custom_msg__python\n'}
+[16.760658] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[16.760985] (custom_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[16.778429] (-) TimerEvent: {}
+[16.815017] (custom_msg) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.815481] (custom_msg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.878562] (-) TimerEvent: {}
+[16.920503] (custom_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.920831] (custom_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.978698] (-) TimerEvent: {}
+[16.985779] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.986098] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_c__pyext\n'}
+[17.001606] (custom_msg) CommandEnded: {'returncode': 0}
+[17.078900] (-) TimerEvent: {}
+[17.133944] (custom_msg) JobProgress: {'identifier': 'custom_msg', 'progress': 'install'}
+[17.150484] (custom_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ign/Desktop/ros2_ws/build/custom_msg', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/ign/Desktop/ros2_ws/build/custom_msg', 'env': OrderedDict([('CLUTTER_IM_MODULE', 'xim'), ('LC_ALL', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_MENU_PREFIX', 'gnome-'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LANG', 'en_US.UTF-8'), ('MANAGERPID', '3873'), ('DISPLAY', ':0'), ('OLDPWD', '/home/ign/Desktop/ros2_ws/src'), ('INVOCATION_ID', '288d171c01234fb29c8b2d5ea045fa09'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('COLORTERM', 'truecolor'), ('USERNAME', 'ign'), ('XDG_VTNR', '2'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_SESSION_ID', '2'), ('USER', 'ign'), ('DESKTOP_SESSION', 'ubuntu'), ('QT4_IM_MODULE', 'xim'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/15bdf09b_2bb4_4dee_82e3_9b0f3748b45c'), ('PWD', '/home/ign/Desktop/ros2_ws/build/custom_msg'), ('COLCON', '1'), ('HOME', '/home/ign'), ('JOURNAL_STREAM', '9:45814'), ('TEXTDOMAIN', 'im-config'), ('SSH_AGENT_PID', '4002'), ('QT_ACCESSIBILITY', '1'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/src/custom_msg/srv/install:/home/ign/Desktop/ros2_ws/srv/install'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=abf6c4c750a52beafdc799015fbb2ec7'), ('ROS_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge'), ('WINDOWPATH', '2'), ('VTE_VERSION', '5202'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('ROS_PYTHON_VERSION', '3'), ('QT_IM_MODULE', 'ibus'), ('XMODIFIERS', '@im=ibus'), ('IM_CONFIG_PHASE', '2'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SHLVL', '2'), ('XDG_SEAT', 'seat0'), ('LANGUAGE', 'en_IN:en'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('GDMSESSION', 'ubuntu'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LOGNAME', 'ign'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=abf6c4c750a52beafdc799015fbb2ec7'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PATH', '/opt/ros/dashing/bin:/home/ign/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IGNKO-Vostro-15-3568:@/tmp/.ICE-unix/3907,unix/IGNKO-Vostro-15-3568:/tmp/.ICE-unix/3907'), ('ROS_DISTRO', 'dashing'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[17.179020] (-) TimerEvent: {}
+[17.225136] (custom_msg) StdoutLine: {'line': b'[  2%] Built target custom_msg__cpp\n'}
+[17.225811] (custom_msg) StdoutLine: {'line': b'[ 13%] Built target custom_msg__rosidl_generator_c\n'}
+[17.265956] (custom_msg) StdoutLine: {'line': b'[ 24%] Built target custom_msg__rosidl_typesupport_introspection_c\n'}
+[17.270727] (custom_msg) StdoutLine: {'line': b'[ 35%] Built target custom_msg__rosidl_typesupport_introspection_cpp\n'}
+[17.271470] (custom_msg) StdoutLine: {'line': b'[ 45%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[17.279146] (-) TimerEvent: {}
+[17.316210] (custom_msg) StdoutLine: {'line': b'[ 67%] Built target custom_msg__rosidl_typesupport_fastrtps_c\n'}
+[17.316509] (custom_msg) StdoutLine: {'line': b'[ 67%] Built target custom_msg__rosidl_typesupport_cpp\n'}
+[17.352593] (custom_msg) StdoutLine: {'line': b'[ 78%] Built target custom_msg__rosidl_typesupport_c\n'}
+[17.379290] (-) TimerEvent: {}
+[17.381821] (custom_msg) StdoutLine: {'line': b'[ 78%] Built target custom_msg\n'}
+[17.412340] (custom_msg) StdoutLine: {'line': b'[ 81%] Built target custom_msg__py\n'}
+[17.450634] (custom_msg) StdoutLine: {'line': b'[ 89%] Built target custom_msg__python\n'}
+[17.479417] (-) TimerEvent: {}
+[17.487794] (custom_msg) StdoutLine: {'line': b'[ 94%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.488115] (custom_msg) StdoutLine: {'line': b'[100%] Built target custom_msg__rosidl_typesupport_c__pyext\n'}
+[17.515707] (custom_msg) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[17.528391] (custom_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.528761] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/ament_index/resource_index/rosidl_interfaces/custom_msg\n'}
+[17.529127] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so\n'}
+[17.529697] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so" to ""\n'}
+[17.530003] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/environment/library_path.sh\n'}
+[17.530264] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so\n'}
+[17.530810] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[17.531097] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg\n'}
+[17.531382] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg\n'}
+[17.531665] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__rosidl_typesupport_fastrtps_c.h\n'}
+[17.531856] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.532090] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv\n'}
+[17.532286] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[17.532499] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[17.532729] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.533035] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg\n'}
+[17.533280] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg\n'}
+[17.533507] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__type_support.h\n'}
+[17.533725] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num.h\n'}
+[17.533957] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__functions.h\n'}
+[17.534178] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.534384] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__struct.h\n'}
+[17.534583] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__functions.c\n'}
+[17.534800] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv\n'}
+[17.534979] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__functions.c\n'}
+[17.535185] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__type_support.h\n'}
+[17.535374] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__struct.h\n'}
+[17.535653] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__functions.h\n'}
+[17.535906] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints.h\n'}
+[17.536142] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so\n'}
+[17.536371] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so" to ""\n'}
+[17.536545] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg\n'}
+[17.536762] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg\n'}
+[17.536940] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/dds_fastrtps\n'}
+[17.537148] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.537387] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.537653] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv\n'}
+[17.537870] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.538150] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/dds_fastrtps\n'}
+[17.538402] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.538522] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.538797] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg\n'}
+[17.538946] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg\n'}
+[17.539239] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__struct.hpp\n'}
+[17.539339] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num.hpp\n'}
+[17.539473] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__traits.hpp\n'}
+[17.539568] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv\n'}
+[17.539690] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints.hpp\n'}
+[17.539788] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__struct.hpp\n'}
+[17.539887] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__traits.hpp\n'}
+[17.540014] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg\n'}
+[17.540180] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg\n'}
+[17.540309] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__type_support.c\n'}
+[17.540441] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.540608] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__rosidl_typesupport_introspection_c.h\n'}
+[17.540736] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv\n'}
+[17.540829] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[17.540960] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__type_support.c\n'}
+[17.541052] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so\n'}
+[17.541144] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.541244] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg\n'}
+[17.541336] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg\n'}
+[17.541471] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.541600] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__type_support.cpp\n'}
+[17.541692] (custom_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv\n'}
+[17.541821] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.541917] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__type_support.cpp\n'}
+[17.542021] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[17.542115] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.542221] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/environment/pythonpath.sh\n'}
+[17.542426] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/__init__.py\n'}
+[17.579498] (-) TimerEvent: {}
+[17.679915] (-) TimerEvent: {}
+[17.694776] (custom_msg) StdoutLine: {'line': b"Compiling '/home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/__init__.py'...\n"}
+[17.700770] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/msg\n'}
+[17.701263] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/msg/_num.py\n'}
+[17.701583] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/msg/__init__.py\n'}
+[17.701734] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/msg/_num_s.c\n'}
+[17.701843] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/srv\n'}
+[17.701984] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/srv/_add_three_ints_s.c\n'}
+[17.702082] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/srv/__init__.py\n'}
+[17.702175] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/srv/_add_three_ints.py\n'}
+[17.702267] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[17.702605] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[17.702899] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[17.703563] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[17.703808] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__python.so\n'}
+[17.704248] (custom_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__python.so" to ""\n'}
+[17.704612] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/msg/Num.idl\n'}
+[17.704847] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/srv/AddThreeInts.idl\n'}
+[17.705040] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/msg/Num.msg\n'}
+[17.705194] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/srv/AddThreeInts.srv\n'}
+[17.705340] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/srv/AddThreeInts_Request.msg\n'}
+[17.705438] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/srv/AddThreeInts_Response.msg\n'}
+[17.705616] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/ament_index/resource_index/package_run_dependencies/custom_msg\n'}
+[17.705814] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/ament_index/resource_index/parent_prefix_path/custom_msg\n'}
+[17.706663] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/environment/ament_prefix_path.sh\n'}
+[17.706974] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/environment/path.sh\n'}
+[17.707217] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/local_setup.bash\n'}
+[17.707443] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/local_setup.sh\n'}
+[17.707712] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/local_setup.zsh\n'}
+[17.707976] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/ament_index/resource_index/packages/custom_msg\n'}
+[17.708265] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[17.708495] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.708727] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.708911] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig.cmake\n'}
+[17.709097] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig-version.cmake\n'}
+[17.709277] (custom_msg) StdoutLine: {'line': b'-- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/package.xml\n'}
+[17.712922] (custom_msg) CommandEnded: {'returncode': 0}
+[17.780133] (-) TimerEvent: {}
+[17.881356] (-) TimerEvent: {}
+[17.982327] (-) TimerEvent: {}
+[18.083087] (-) TimerEvent: {}
+[18.140784] (custom_msg) JobEnded: {'identifier': 'custom_msg', 'rc': 0}
+[18.142370] (-) EventReactorShutdown: {}

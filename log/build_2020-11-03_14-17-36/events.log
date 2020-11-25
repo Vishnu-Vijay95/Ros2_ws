@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000976] (ros_msg) JobQueued: {'identifier': 'ros_msg', 'dependencies': OrderedDict()}
+[0.001049] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.015171] (ros_msg) JobStarted: {'identifier': 'ros_msg'}
+[0.026865] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.027757] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.029250] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ign/Desktop/ros2_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/ign/Desktop/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('CLUTTER_IM_MODULE', 'xim'), ('LC_ALL', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_MENU_PREFIX', 'gnome-'), ('AMENT_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/install/cpp_pubsub:/opt/ros/dashing'), ('LANG', 'en_US.UTF-8'), ('MANAGERPID', '3033'), ('DISPLAY', ':0'), ('INVOCATION_ID', 'af34f6cc12fd4472b46069a226b9bb1e'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('COLORTERM', 'truecolor'), ('USERNAME', 'ign'), ('XDG_VTNR', '2'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_SESSION_ID', '2'), ('USER', 'ign'), ('DESKTOP_SESSION', 'ubuntu'), ('QT4_IM_MODULE', 'xim'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37d18823_51b4_4ed8_922e_f2ce422a9e44'), ('PWD', '/home/ign/Desktop/ros2_ws/build/cpp_pubsub'), ('COLCON', '1'), ('HOME', '/home/ign'), ('JOURNAL_STREAM', '9:44326'), ('TEXTDOMAIN', 'im-config'), ('CMAKE_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AGENT_PID', '3162'), ('QT_ACCESSIBILITY', '1'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/install'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('ROS_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge'), ('WINDOWPATH', '2'), ('VTE_VERSION', '5202'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('ROS_PYTHON_VERSION', '3'), ('QT_IM_MODULE', 'ibus'), ('XMODIFIERS', '@im=ibus'), ('IM_CONFIG_PHASE', '2'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SHLVL', '2'), ('XDG_SEAT', 'seat0'), ('LANGUAGE', 'en_IN:en'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('GDMSESSION', 'ubuntu'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LOGNAME', 'ign'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PATH', '/opt/ros/dashing/bin:/home/ign/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IGNKO-Vostro-15-3568:@/tmp/.ICE-unix/3067,unix/IGNKO-Vostro-15-3568:/tmp/.ICE-unix/3067'), ('ROS_DISTRO', 'dashing'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.041428] (ros_msg) JobProgress: {'identifier': 'ros_msg', 'progress': 'cmake'}
+[0.042004] (ros_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/ign/Desktop/ros2_ws/ros_msg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/ros_msg'], 'cwd': '/home/ign/Desktop/ros2_ws/build/ros_msg', 'env': OrderedDict([('CLUTTER_IM_MODULE', 'xim'), ('LC_ALL', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_MENU_PREFIX', 'gnome-'), ('AMENT_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/install/cpp_pubsub:/opt/ros/dashing'), ('LANG', 'en_US.UTF-8'), ('MANAGERPID', '3033'), ('DISPLAY', ':0'), ('INVOCATION_ID', 'af34f6cc12fd4472b46069a226b9bb1e'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('COLORTERM', 'truecolor'), ('USERNAME', 'ign'), ('XDG_VTNR', '2'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_SESSION_ID', '2'), ('USER', 'ign'), ('DESKTOP_SESSION', 'ubuntu'), ('QT4_IM_MODULE', 'xim'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37d18823_51b4_4ed8_922e_f2ce422a9e44'), ('PWD', '/home/ign/Desktop/ros2_ws/build/ros_msg'), ('COLCON', '1'), ('HOME', '/home/ign'), ('JOURNAL_STREAM', '9:44326'), ('TEXTDOMAIN', 'im-config'), ('CMAKE_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AGENT_PID', '3162'), ('QT_ACCESSIBILITY', '1'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/install'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('ROS_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge'), ('WINDOWPATH', '2'), ('VTE_VERSION', '5202'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('ROS_PYTHON_VERSION', '3'), ('QT_IM_MODULE', 'ibus'), ('XMODIFIERS', '@im=ibus'), ('IM_CONFIG_PHASE', '2'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SHLVL', '2'), ('XDG_SEAT', 'seat0'), ('LANGUAGE', 'en_IN:en'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('GDMSESSION', 'ubuntu'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LOGNAME', 'ign'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PATH', '/opt/ros/dashing/bin:/home/ign/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IGNKO-Vostro-15-3568:@/tmp/.ICE-unix/3067,unix/IGNKO-Vostro-15-3568:/tmp/.ICE-unix/3067'), ('ROS_DISTRO', 'dashing'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.099631] (-) TimerEvent: {}
+[0.124468] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.136954] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[0.138710] (ros_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.153035] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.199833] (-) TimerEvent: {}
+[0.208515] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[0.217033] (ros_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.221579] (ros_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.224243] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ign/Desktop/ros2_ws/build/cpp_pubsub', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/ign/Desktop/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('CLUTTER_IM_MODULE', 'xim'), ('LC_ALL', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_MENU_PREFIX', 'gnome-'), ('AMENT_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/install/cpp_pubsub:/opt/ros/dashing'), ('LANG', 'en_US.UTF-8'), ('MANAGERPID', '3033'), ('DISPLAY', ':0'), ('INVOCATION_ID', 'af34f6cc12fd4472b46069a226b9bb1e'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('COLORTERM', 'truecolor'), ('USERNAME', 'ign'), ('XDG_VTNR', '2'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_SESSION_ID', '2'), ('USER', 'ign'), ('DESKTOP_SESSION', 'ubuntu'), ('QT4_IM_MODULE', 'xim'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37d18823_51b4_4ed8_922e_f2ce422a9e44'), ('PWD', '/home/ign/Desktop/ros2_ws/build/cpp_pubsub'), ('COLCON', '1'), ('HOME', '/home/ign'), ('JOURNAL_STREAM', '9:44326'), ('TEXTDOMAIN', 'im-config'), ('CMAKE_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/install/cpp_pubsub:/opt/ros/dashing'), ('SSH_AGENT_PID', '3162'), ('QT_ACCESSIBILITY', '1'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON_PREFIX_PATH', '/home/ign/Desktop/ros2_ws/install'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('ROS_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge'), ('WINDOWPATH', '2'), ('VTE_VERSION', '5202'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('ROS_PYTHON_VERSION', '3'), ('QT_IM_MODULE', 'ibus'), ('XMODIFIERS', '@im=ibus'), ('IM_CONFIG_PHASE', '2'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SHLVL', '2'), ('XDG_SEAT', 'seat0'), ('LANGUAGE', 'en_IN:en'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('GDMSESSION', 'ubuntu'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LOGNAME', 'ign'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PATH', '/opt/ros/dashing/bin:/home/ign/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IGNKO-Vostro-15-3568:@/tmp/.ICE-unix/3067,unix/IGNKO-Vostro-15-3568:/tmp/.ICE-unix/3067'), ('ROS_DISTRO', 'dashing'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.299991] (-) TimerEvent: {}
+[0.308034] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[0.315928] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[0.329826] (ros_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.331076] (ros_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.352772] (cpp_pubsub) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.365129] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.365893] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.366642] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[0.367110] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[0.367675] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[0.368319] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[0.368821] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[0.369318] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[0.369811] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[0.370300] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[0.370788] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[0.371296] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[0.371806] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[0.372172] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[0.372656] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[0.376691] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.410790] (-) TimerEvent: {}
+[0.440453] (ros_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.449122] (ros_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.488628] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[0.510934] (-) TimerEvent: {}
+[0.611285] (-) TimerEvent: {}
+[0.711633] (-) TimerEvent: {}
+[0.733587] (ros_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.736356] (ros_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.811770] (-) TimerEvent: {}
+[0.841220] (ros_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.842022] (ros_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.911901] (-) TimerEvent: {}
+[0.948190] (ros_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.954173] (ros_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.012015] (-) TimerEvent: {}
+[1.112349] (-) TimerEvent: {}
+[1.212691] (-) TimerEvent: {}
+[1.313078] (-) TimerEvent: {}
+[1.399330] (ros_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.402142] (ros_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[1.413182] (-) TimerEvent: {}
+[1.438769] (ros_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.439326] (ros_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.513295] (-) TimerEvent: {}
+[1.613651] (-) TimerEvent: {}
+[1.699266] (ros_msg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.713774] (-) TimerEvent: {}
+[1.723692] (ros_msg) StdoutLine: {'line': b'-- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[1.750929] (ros_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.803319] (ros_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[1.805228] (ros_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.806342] (ros_msg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.813942] (-) TimerEvent: {}
+[1.901668] (ros_msg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.902133] (ros_msg) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.914042] (-) TimerEvent: {}
+[1.996582] (ros_msg) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.996840] (ros_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.014171] (-) TimerEvent: {}
+[2.075293] (ros_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.075665] (ros_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.114294] (-) TimerEvent: {}
+[2.173100] (ros_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.174558] (ros_msg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.214441] (-) TimerEvent: {}
+[2.221276] (ros_msg) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[2.229081] (ros_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)\n'}
+[2.314584] (-) TimerEvent: {}
+[2.414956] (-) TimerEvent: {}
+[2.515541] (-) TimerEvent: {}
+[2.516749] (ros_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[2.546701] (ros_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/dashing/include  \n'}
+[2.615780] (-) TimerEvent: {}
+[2.680835] (ros_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[2.715918] (-) TimerEvent: {}
+[2.816271] (-) TimerEvent: {}
+[2.828850] (ros_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[2.906991] (ros_msg) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[2.907230] (ros_msg) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name ros_msg\n'}
+[2.907344] (ros_msg) StderrLine: {'line': b'  --arguments-file\n'}
+[2.907442] (ros_msg) StderrLine: {'line': b'  /home/ign/Desktop/ros2_ws/build/ros_msg/rosidl_adapter__arguments__new_msg.json\n'}
+[2.907537] (ros_msg) StderrLine: {'line': b'  --output-dir /home/ign/Desktop/ros2_ws/build/ros_msg/rosidl_adapter/ros_msg\n'}
+[2.907630] (ros_msg) StderrLine: {'line': b'  --output-file\n'}
+[2.907723] (ros_msg) StderrLine: {'line': b'  /home/ign/Desktop/ros2_ws/build/ros_msg/rosidl_adapter/new_msg.idls)\n'}
+[2.907845] (ros_msg) StderrLine: {'line': b'  returned error code 1:\n'}
+[2.907940] (ros_msg) StderrLine: {'line': b'\n'}
+[2.908034] (ros_msg) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[2.908125] (ros_msg) StderrLine: {'line': b'\n'}
+[2.908217] (ros_msg) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main\n'}
+[2.908309] (ros_msg) StderrLine: {'line': b'      "__main__", mod_spec)\n'}
+[2.908402] (ros_msg) StderrLine: {'line': b'    File "/usr/lib/python3.6/runpy.py", line 85, in _run_code\n'}
+[2.908494] (ros_msg) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[2.908585] (ros_msg) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[2.908677] (ros_msg) StderrLine: {'line': b'      sys.exit(main())\n'}
+[2.908768] (ros_msg) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/main.py", line 55, in main\n'}
+[2.908861] (ros_msg) StderrLine: {'line': b'      pathlib.Path(relative_path), output_dir)\n'}
+[2.908953] (ros_msg) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/__init__.py", line 20, in convert_to_idl\n'}
+[2.909048] (ros_msg) StderrLine: {'line': b"      package_dir, package_name, interface_file, output_dir / 'msg')\n"}
+[2.909139] (ros_msg) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[2.909231] (ros_msg) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[2.909409] (ros_msg) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 522, in parse_message_string\n'}
+[2.909505] (ros_msg) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[2.909597] (ros_msg) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 373, in __init__\n'}
+[2.909698] (ros_msg) StderrLine: {'line': b'      pkg_name + PACKAGE_NAME_MESSAGE_TYPE_SEPARATOR + msg_name)\n'}
+[2.909788] (ros_msg) StderrLine: {'line': b'    File "/opt/ros/dashing/lib/python3.6/site-packages/rosidl_adapter/parser.py", line 196, in __init__\n'}
+[2.909880] (ros_msg) StderrLine: {'line': b'      raise InvalidResourceName(self.type)\n'}
+[2.909973] (ros_msg) StderrLine: {'line': b'\n'}
+[2.910067] (ros_msg) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidResourceName: mymsg\n'}
+[2.910158] (ros_msg) StderrLine: {'line': b'\n'}
+[2.910249] (ros_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.910340] (ros_msg) StderrLine: {'line': b'  /opt/ros/dashing/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[2.910434] (ros_msg) StderrLine: {'line': b'  CMakeLists.txt:40 (rosidl_generate_interfaces)\n'}
+[2.910528] (ros_msg) StderrLine: {'line': b'\n'}
+[2.910621] (ros_msg) StderrLine: {'line': b'\n'}
+[2.910714] (ros_msg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.910824] (ros_msg) StdoutLine: {'line': b'See also "/home/ign/Desktop/ros2_ws/build/ros_msg/CMakeFiles/CMakeOutput.log".\n'}
+[2.910921] (ros_msg) StdoutLine: {'line': b'See also "/home/ign/Desktop/ros2_ws/build/ros_msg/CMakeFiles/CMakeError.log".\n'}
+[2.915331] (ros_msg) CommandEnded: {'returncode': 1}
+[2.916425] (-) TimerEvent: {}
+[2.941847] (ros_msg) JobEnded: {'identifier': 'ros_msg', 'rc': 1}
+[2.953075] (-) EventReactorShutdown: {}

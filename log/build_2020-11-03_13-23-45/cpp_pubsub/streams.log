@@ -1,0 +1,42 @@
+[0.020s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_pubsub
+[0.094s] -- The C compiler identification is GNU 7.5.0
+[0.166s] -- The CXX compiler identification is GNU 7.5.0
+[0.170s] -- Check for working C compiler: /usr/bin/cc
+[0.260s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.261s] -- Detecting C compiler ABI info
+[0.352s] -- Detecting C compiler ABI info - done
+[0.359s] -- Detecting C compile features
+[0.631s] -- Detecting C compile features - done
+[0.634s] -- Check for working CXX compiler: /usr/bin/c++
+[0.739s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.739s] -- Detecting CXX compiler ABI info
+[0.845s] -- Detecting CXX compiler ABI info - done
+[0.851s] -- Detecting CXX compile features
+[1.298s] -- Detecting CXX compile features - done
+[1.301s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.338s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.338s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.619s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.724s] -- Added test 'lint_cmake' to check CMake code style
+[1.726s] -- Added test 'xmllint' to check XML markup files
+[1.728s] -- Configuring done
+[1.731s] -- Generating done
+[1.732s] -- Build files have been written to: /home/ign/Desktop/ros2_ws/build/cpp_pubsub
+[1.736s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_pubsub
+[1.738s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[1.795s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[1.846s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub --target install -- -j4 -l4
+[1.912s] [36mInstall the project...[0m
+[1.924s] -- Install configuration: ""
+[1.924s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[1.925s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[1.925s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[1.925s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[1.925s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[1.926s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[1.926s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[1.926s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[1.926s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[1.927s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[1.927s] -- Installing: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[1.932s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub --target install -- -j4 -l4

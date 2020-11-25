@@ -1,0 +1,41 @@
+[0.379s] Invoking command in '/home/ign/Desktop/ros2_ws/src/py_srvcli': PYTHONPATH=/home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ign/Desktop/ros2_ws/build/py_srvcli/build install --prefix /home/ign/Desktop/ros2_ws/install/py_srvcli --record /home/ign/Desktop/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[0.713s] running egg_info
+[0.714s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.715s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.715s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.715s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.716s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.716s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.716s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.758s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.760s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.760s] running build_py
+[0.761s] creating /home/ign/Desktop/ros2_ws/build/py_srvcli/build
+[0.761s] creating /home/ign/Desktop/ros2_ws/build/py_srvcli/build/lib
+[0.761s] creating /home/ign/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.761s] copying py_srvcli/client_member_function.py -> /home/ign/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.761s] copying py_srvcli/service_member_function.py -> /home/ign/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.762s] copying py_srvcli/__init__.py -> /home/ign/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.762s] running install
+[0.762s] running install_lib
+[0.763s] creating /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli
+[0.763s] copying /home/ign/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli
+[0.764s] copying /home/ign/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli
+[0.764s] copying /home/ign/Desktop/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli
+[0.764s] byte-compiling /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-36.pyc
+[0.765s] byte-compiling /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-36.pyc
+[0.765s] byte-compiling /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli/__init__.py to __init__.cpython-36.pyc
+[0.766s] running install_data
+[0.766s] creating /home/ign/Desktop/ros2_ws/install/py_srvcli/share/ament_index
+[0.767s] creating /home/ign/Desktop/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[0.767s] creating /home/ign/Desktop/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.767s] copying resource/py_srvcli -> /home/ign/Desktop/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.767s] copying package.xml -> /home/ign/Desktop/ros2_ws/install/py_srvcli/share/py_srvcli
+[0.768s] running install_egg_info
+[0.770s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages/py_srvcli-0.0.0-py3.6.egg-info
+[0.771s] running install_scripts
+[0.795s] Installing client script to /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.796s] Installing service script to /home/ign/Desktop/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.796s] writing list of installed files to '/home/ign/Desktop/ros2_ws/build/py_srvcli/install.log'
+[0.823s] Invoked command in '/home/ign/Desktop/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:${PYTHONPATH} SHLVL=2 _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ign/Desktop/ros2_ws/build/py_srvcli/build install --prefix /home/ign/Desktop/ros2_ws/install/py_srvcli --record /home/ign/Desktop/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

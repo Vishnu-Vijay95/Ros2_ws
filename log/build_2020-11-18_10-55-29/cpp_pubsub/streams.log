@@ -1,0 +1,23 @@
+[0.322s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub': SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[1.402s] [ 50%] Built target listener
+[1.403s] [100%] Built target talker
+[1.419s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub' returned '0': SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[1.507s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub': SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub --target install -- -j4 -l4
+[1.848s] [ 50%] Built target talker
+[1.848s] [100%] Built target listener
+[1.848s] [36mInstall the project...[0m
+[1.849s] -- Install configuration: ""
+[1.849s] -- Execute custom install script
+[1.849s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[1.849s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[1.849s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[1.849s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[1.849s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[1.849s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[1.849s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[1.862s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[1.916s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[1.947s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[1.947s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[1.949s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[1.949s] -- Up-to-date symlink: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml

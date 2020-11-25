@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000344] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.016866] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.017905] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/ign/Desktop/ros2_ws/cpp_pubsub', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/ign/Desktop/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('CLUTTER_IM_MODULE', 'xim'), ('LC_ALL', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_MENU_PREFIX', 'gnome-'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LANG', 'en_US.UTF-8'), ('MANAGERPID', '3033'), ('DISPLAY', ':0'), ('INVOCATION_ID', 'af34f6cc12fd4472b46069a226b9bb1e'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('COLORTERM', 'truecolor'), ('USERNAME', 'ign'), ('XDG_VTNR', '2'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_SESSION_ID', '2'), ('USER', 'ign'), ('DESKTOP_SESSION', 'ubuntu'), ('QT4_IM_MODULE', 'xim'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37d18823_51b4_4ed8_922e_f2ce422a9e44'), ('PWD', '/home/ign/Desktop/ros2_ws/build/cpp_pubsub'), ('COLCON', '1'), ('HOME', '/home/ign'), ('JOURNAL_STREAM', '9:44326'), ('TEXTDOMAIN', 'im-config'), ('SSH_AGENT_PID', '3162'), ('QT_ACCESSIBILITY', '1'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('ROS_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge'), ('WINDOWPATH', '2'), ('VTE_VERSION', '5202'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('ROS_PYTHON_VERSION', '3'), ('QT_IM_MODULE', 'ibus'), ('XMODIFIERS', '@im=ibus'), ('IM_CONFIG_PHASE', '2'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SHLVL', '2'), ('XDG_SEAT', 'seat0'), ('LANGUAGE', 'en_IN:en'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('GDMSESSION', 'ubuntu'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LOGNAME', 'ign'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PATH', '/opt/ros/dashing/bin:/home/ign/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IGNKO-Vostro-15-3568:@/tmp/.ICE-unix/3067,unix/IGNKO-Vostro-15-3568:/tmp/.ICE-unix/3067'), ('ROS_DISTRO', 'dashing'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.041099] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.075118] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098632] (-) TimerEvent: {}
+[0.199075] (-) TimerEvent: {}
+[0.299438] (-) TimerEvent: {}
+[0.342308] (cpp_pubsub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.352010] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[0.377233] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[0.399570] (-) TimerEvent: {}
+[0.429230] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[0.431181] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.432450] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.499709] (-) TimerEvent: {}
+[0.527564] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.528164] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[0.599859] (-) TimerEvent: {}
+[0.623584] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[0.623845] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.699980] (-) TimerEvent: {}
+[0.700301] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.700618] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.791982] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.793289] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800104] (-) TimerEvent: {}
+[0.831774] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)\n'}
+[0.868266] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[0.900185] (-) TimerEvent: {}
+[0.962281] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[0.963647] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.963951] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.964968] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.965890] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.966948] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.967599] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.970416] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.997414] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.999115] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/ign/Desktop/ros2_ws/build/cpp_pubsub\n'}
+[1.000274] (-) TimerEvent: {}
+[1.002482] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.003585] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.006236] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ign/Desktop/ros2_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/ign/Desktop/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('CLUTTER_IM_MODULE', 'xim'), ('LC_ALL', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_MENU_PREFIX', 'gnome-'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LANG', 'en_US.UTF-8'), ('MANAGERPID', '3033'), ('DISPLAY', ':0'), ('INVOCATION_ID', 'af34f6cc12fd4472b46069a226b9bb1e'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('COLORTERM', 'truecolor'), ('USERNAME', 'ign'), ('XDG_VTNR', '2'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_SESSION_ID', '2'), ('USER', 'ign'), ('DESKTOP_SESSION', 'ubuntu'), ('QT4_IM_MODULE', 'xim'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37d18823_51b4_4ed8_922e_f2ce422a9e44'), ('PWD', '/home/ign/Desktop/ros2_ws/build/cpp_pubsub'), ('COLCON', '1'), ('HOME', '/home/ign'), ('JOURNAL_STREAM', '9:44326'), ('TEXTDOMAIN', 'im-config'), ('SSH_AGENT_PID', '3162'), ('QT_ACCESSIBILITY', '1'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('ROS_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge'), ('WINDOWPATH', '2'), ('VTE_VERSION', '5202'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('ROS_PYTHON_VERSION', '3'), ('QT_IM_MODULE', 'ibus'), ('XMODIFIERS', '@im=ibus'), ('IM_CONFIG_PHASE', '2'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SHLVL', '2'), ('XDG_SEAT', 'seat0'), ('LANGUAGE', 'en_IN:en'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('GDMSESSION', 'ubuntu'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LOGNAME', 'ign'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PATH', '/opt/ros/dashing/bin:/home/ign/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IGNKO-Vostro-15-3568:@/tmp/.ICE-unix/3067,unix/IGNKO-Vostro-15-3568:/tmp/.ICE-unix/3067'), ('ROS_DISTRO', 'dashing'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[1.068303] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[1.068550] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[1.100419] (-) TimerEvent: {}
+[1.120949] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/member2.cpp.o\x1b[0m\n'}
+[1.121293] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/member.cpp.o\x1b[0m\n'}
+[1.200541] (-) TimerEvent: {}
+[1.300976] (-) TimerEvent: {}
+[1.401458] (-) TimerEvent: {}
+[1.501906] (-) TimerEvent: {}
+[1.602340] (-) TimerEvent: {}
+[1.702786] (-) TimerEvent: {}
+[1.803233] (-) TimerEvent: {}
+[1.903688] (-) TimerEvent: {}
+[2.004146] (-) TimerEvent: {}
+[2.104582] (-) TimerEvent: {}
+[2.205071] (-) TimerEvent: {}
+[2.305530] (-) TimerEvent: {}
+[2.405950] (-) TimerEvent: {}
+[2.506374] (-) TimerEvent: {}
+[2.606803] (-) TimerEvent: {}
+[2.707235] (-) TimerEvent: {}
+[2.807668] (-) TimerEvent: {}
+[2.908110] (-) TimerEvent: {}
+[3.008525] (-) TimerEvent: {}
+[3.108942] (-) TimerEvent: {}
+[3.209356] (-) TimerEvent: {}
+[3.309788] (-) TimerEvent: {}
+[3.410232] (-) TimerEvent: {}
+[3.510677] (-) TimerEvent: {}
+[3.611122] (-) TimerEvent: {}
+[3.711532] (-) TimerEvent: {}
+[3.811998] (-) TimerEvent: {}
+[3.859270] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.912149] (-) TimerEvent: {}
+[4.012637] (-) TimerEvent: {}
+[4.064369] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.097564] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[4.112776] (-) TimerEvent: {}
+[4.213169] (-) TimerEvent: {}
+[4.302908] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[4.313281] (-) TimerEvent: {}
+[4.318078] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.363142] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[4.379745] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ign/Desktop/ros2_ws/build/cpp_pubsub', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/ign/Desktop/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('CLUTTER_IM_MODULE', 'xim'), ('LC_ALL', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_MENU_PREFIX', 'gnome-'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LANG', 'en_US.UTF-8'), ('MANAGERPID', '3033'), ('DISPLAY', ':0'), ('INVOCATION_ID', 'af34f6cc12fd4472b46069a226b9bb1e'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('COLORTERM', 'truecolor'), ('USERNAME', 'ign'), ('XDG_VTNR', '2'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_SESSION_ID', '2'), ('USER', 'ign'), ('DESKTOP_SESSION', 'ubuntu'), ('QT4_IM_MODULE', 'xim'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/37d18823_51b4_4ed8_922e_f2ce422a9e44'), ('PWD', '/home/ign/Desktop/ros2_ws/build/cpp_pubsub'), ('COLCON', '1'), ('HOME', '/home/ign'), ('JOURNAL_STREAM', '9:44326'), ('TEXTDOMAIN', 'im-config'), ('SSH_AGENT_PID', '3162'), ('QT_ACCESSIBILITY', '1'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('ROS_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge'), ('WINDOWPATH', '2'), ('VTE_VERSION', '5202'), ('SHELL', '/bin/bash'), ('TERM', 'xterm-256color'), ('ROS_PYTHON_VERSION', '3'), ('QT_IM_MODULE', 'ibus'), ('XMODIFIERS', '@im=ibus'), ('IM_CONFIG_PHASE', '2'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SHLVL', '2'), ('XDG_SEAT', 'seat0'), ('LANGUAGE', 'en_IN:en'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('GDMSESSION', 'ubuntu'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LOGNAME', 'ign'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=d16c882ebca7166f5fb9a8295f9fb6ad'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PATH', '/opt/ros/dashing/bin:/home/ign/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/IGNKO-Vostro-15-3568:@/tmp/.ICE-unix/3067,unix/IGNKO-Vostro-15-3568:/tmp/.ICE-unix/3067'), ('ROS_DISTRO', 'dashing'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[4.413441] (-) TimerEvent: {}
+[4.466709] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[4.467705] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[4.493664] (cpp_pubsub) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[4.505566] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.506303] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.507074] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[4.513578] (-) TimerEvent: {}
+[4.519826] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[4.532544] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[4.545648] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[4.558356] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[4.571065] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[4.583761] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[4.596443] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[4.609331] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[4.613706] (-) TimerEvent: {}
+[4.622182] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[4.634823] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[4.647828] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[4.660495] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[4.677327] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.713896] (-) TimerEvent: {}
+[4.752975] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[4.754672] (-) EventReactorShutdown: {}

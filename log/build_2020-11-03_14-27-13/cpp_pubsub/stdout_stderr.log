@@ -1,0 +1,4 @@
+CMake Error: The source directory "/home/ign/Desktop/ros2_ws/cpp_pubsub" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+Makefile:296: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,3 @@
+source;share/cpp_srvcli/hook/cmake_prefix_path.ps1
+source;share/cpp_srvcli/hook/cmake_prefix_path.dsv
+source;share/cpp_srvcli/hook/cmake_prefix_path.sh

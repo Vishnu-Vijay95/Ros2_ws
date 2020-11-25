@@ -1,0 +1,60 @@
+[0.018s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_pubsub
+[0.040s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.341s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.351s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.376s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.428s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.431s] -- Looking for pthread.h
+[0.526s] -- Looking for pthread.h - found
+[0.527s] -- Looking for pthread_create
+[0.622s] -- Looking for pthread_create - not found
+[0.623s] -- Looking for pthread_create in pthreads
+[0.699s] -- Looking for pthread_create in pthreads - not found
+[0.699s] -- Looking for pthread_create in pthread
+[0.791s] -- Looking for pthread_create in pthread - found
+[0.792s] -- Found Threads: TRUE  
+[0.831s] -- Found std_msgs: 0.7.0 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.867s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[0.961s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[0.962s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.963s] -- Configured cppcheck include dirs: 
+[0.964s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.965s] -- Added test 'lint_cmake' to check CMake code style
+[0.966s] -- Added test 'uncrustify' to check C / C++ code style
+[0.966s] -- Added test 'xmllint' to check XML markup files
+[0.969s] -- Configuring done
+[0.996s] -- Generating done
+[0.998s] -- Build files have been written to: /home/ign/Desktop/ros2_ws/build/cpp_pubsub
+[1.001s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_pubsub
+[1.006s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[1.067s] [35m[1mScanning dependencies of target talker[0m
+[1.067s] [35m[1mScanning dependencies of target listener[0m
+[1.120s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/member2.cpp.o[0m
+[1.120s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/member.cpp.o[0m
+[3.858s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.063s] [ 75%] Built target talker
+[4.096s] [100%] [32m[1mLinking CXX executable listener[0m
+[4.302s] [100%] Built target listener
+[4.317s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[4.379s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub --target install -- -j4 -l4
+[4.466s] [ 50%] Built target listener
+[4.466s] [100%] Built target talker
+[4.492s] [36mInstall the project...[0m
+[4.504s] -- Install configuration: ""
+[4.505s] -- Execute custom install script
+[4.506s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[4.519s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[4.531s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.544s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.557s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.570s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.583s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.595s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.608s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.621s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.634s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.647s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.659s] -- Symlinking: /home/ign/Desktop/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.676s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub --target install -- -j4 -l4

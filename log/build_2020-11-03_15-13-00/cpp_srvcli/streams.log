@@ -1,0 +1,9 @@
+[0.019s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli
+[0.042s] CMake Error at CMakeLists.txt:20 (ament_package):
+[0.042s]   Unknown CMake command "ament_package".
+[0.042s] 
+[0.042s] 
+[0.042s] -- Configuring incomplete, errors occurred!
+[0.043s] See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".
+[0.043s] See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeError.log".
+[0.045s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli' returned '1': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli

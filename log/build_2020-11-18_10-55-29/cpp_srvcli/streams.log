@@ -1,0 +1,23 @@
+[0.296s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli': SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli
+[1.285s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.285s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.287s] -- Configuring incomplete, errors occurred!
+[1.287s] See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".
+[1.287s] See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeError.log".
+[1.289s] Traceback (most recent call last):
+[1.289s]   File "/opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.290s]     from ament_package.templates import get_environment_hook_template_path
+[1.291s] ModuleNotFoundError: No module named 'ament_package'
+[1.292s] CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.292s]   execute_process(/usr/bin/python3
+[1.295s]   /opt/ros/dashing/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.295s]   /home/ign/Desktop/ros2_ws/build/cpp_srvcli/ament_cmake_package_templates/templates.cmake)
+[1.299s]   returned error code 1
+[1.299s] Call Stack (most recent call first):
+[1.299s]   /opt/ros/dashing/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:38 (include)
+[1.299s]   /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake:21 (find_package)
+[1.300s]   /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake:38 (include)
+[1.300s]   CMakeLists.txt:22 (find_package)
+[1.300s] 
+[1.300s] 
+[1.302s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli' returned '1': SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli

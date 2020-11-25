@@ -1,0 +1,2 @@
+Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli': SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli
+Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli' returned '1': SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli

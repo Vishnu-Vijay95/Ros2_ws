@@ -1,0 +1,44 @@
+[0.018s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ign/Desktop/ros2_ws/install/py_pubsub:/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli
+[0.095s] -- The C compiler identification is GNU 7.5.0
+[0.170s] -- The CXX compiler identification is GNU 7.5.0
+[0.175s] -- Check for working C compiler: /usr/bin/cc
+[0.267s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.268s] -- Detecting C compiler ABI info
+[0.361s] -- Detecting C compiler ABI info - done
+[0.367s] -- Detecting C compile features
+[0.647s] -- Detecting C compile features - done
+[0.650s] -- Check for working CXX compiler: /usr/bin/c++
+[0.758s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.759s] -- Detecting CXX compiler ABI info
+[0.868s] -- Detecting CXX compiler ABI info - done
+[0.874s] -- Detecting CXX compile features
+[1.332s] -- Detecting CXX compile features - done
+[1.335s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[1.374s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.374s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.676s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.703s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.761s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.763s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.764s] -- Looking for pthread.h
+[1.861s] -- Looking for pthread.h - found
+[1.861s] -- Looking for pthread_create
+[1.959s] -- Looking for pthread_create - not found
+[1.959s] -- Looking for pthread_create in pthreads
+[2.038s] -- Looking for pthread_create in pthreads - not found
+[2.038s] -- Looking for pthread_create in pthread
+[2.133s] -- Looking for pthread_create in pthread - found
+[2.134s] -- Found Threads: TRUE  
+[2.208s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[2.460s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[2.461s] CMake Error at /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake:18 (message):
+[2.461s]   find_package(ament_lint_auto) must be called before ament_package()
+[2.461s] Call Stack (most recent call first):
+[2.461s]   /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake:38 (include)
+[2.461s]   CMakeLists.txt:38 (find_package)
+[2.461s] 
+[2.462s] 
+[2.463s] -- Configuring incomplete, errors occurred!
+[2.463s] See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".
+[2.463s] See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeError.log".
+[2.468s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ign/Desktop/ros2_ws/install/py_pubsub:/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli

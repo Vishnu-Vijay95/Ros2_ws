@@ -1,0 +1,6 @@
+{
+  "package_name": "ros_msg",
+  "non_idl_tuples": [
+    "/home/ign/Desktop/ros2_ws/ros_msg:msg/mymsg.msg"
+  ]
+}

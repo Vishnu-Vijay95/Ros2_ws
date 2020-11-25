@@ -1,0 +1,19 @@
+[0.028s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ign/Desktop/ros2_ws/install/py_srvcli:/home/ign/Desktop/ros2_ws/install/py_pubsub:/opt/ros/dashing PYTHONPATH=/home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages:/home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:/home/ign/Desktop/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub -- -j4 -l4
+[0.092s] [35m[1mScanning dependencies of target listener[0m
+[0.092s] [35m[1mScanning dependencies of target talker[0m
+[0.126s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/member2.cpp.o[0m
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/member.cpp.o[0m
+[1.432s] [01m[K/home/ign/Desktop/ros2_ws/cpp_pubsub/src/member2.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[1.432s] [01m[K/home/ign/Desktop/ros2_ws/cpp_pubsub/src/member2.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.432s]      [01;31m[K}[m[K
+[1.433s]      [01;31m[K^[m[K
+[2.252s] CMakeFiles/listener.dir/build.make:62: recipe for target 'CMakeFiles/listener.dir/src/member2.cpp.o' failed
+[2.252s] make[2]: *** [CMakeFiles/listener.dir/src/member2.cpp.o] Error 1
+[2.252s] make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+[2.252s] make[1]: *** Waiting for unfinished jobs....
+[2.252s] CMakeFiles/Makefile2:136: recipe for target 'CMakeFiles/listener.dir/all' failed
+[2.871s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[3.097s] [ 75%] Built target talker
+[3.098s] Makefile:140: recipe for target 'all' failed
+[3.099s] make: *** [all] Error 2
+[3.101s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ign/Desktop/ros2_ws/install/py_srvcli:/home/ign/Desktop/ros2_ws/install/py_pubsub:/opt/ros/dashing PYTHONPATH=/home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages:/home/ign/Desktop/ros2_ws/install/py_srvcli/lib/python3.6/site-packages:/home/ign/Desktop/ros2_ws/install/py_pubsub/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/cpp_pubsub -- -j4 -l4

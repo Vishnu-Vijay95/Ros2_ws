@@ -1,0 +1,230 @@
+[0.022s] Invoking command in '/home/ign/Desktop/ros2_ws/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/custom_msg -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/custom_msg
+[2.098s] -- The C compiler identification is GNU 7.5.0
+[3.472s] -- The CXX compiler identification is GNU 7.5.0
+[3.574s] -- Check for working C compiler: /usr/bin/cc
+[3.751s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.775s] -- Detecting C compiler ABI info
+[3.899s] -- Detecting C compiler ABI info - done
+[3.906s] -- Detecting C compile features
+[4.275s] -- Detecting C compile features - done
+[4.294s] -- Check for working CXX compiler: /usr/bin/c++
+[4.400s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.400s] -- Detecting CXX compiler ABI info
+[4.508s] -- Detecting CXX compiler ABI info - done
+[4.514s] -- Detecting CXX compile features
+[4.971s] -- Detecting CXX compile features - done
+[5.063s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[5.170s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[5.170s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.695s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[6.315s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[6.395s] -- Found FastRTPS: /opt/ros/dashing/include  
+[6.620s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[6.975s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[7.261s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[7.343s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[7.612s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[7.673s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[7.675s] -- Found python_cmake_module: 0.7.10 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[7.861s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[7.861s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.862s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[7.862s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[7.920s] -- Found PythonExtra: .so  
+[8.220s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[8.486s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[8.527s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.546s] -- Added test 'lint_cmake' to check CMake code style
+[8.573s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.586s] -- Added test 'xmllint' to check XML markup files
+[8.630s] -- Configuring done
+[8.817s] -- Generating done
+[8.821s] -- Build files have been written to: /home/ign/Desktop/ros2_ws/build/custom_msg
+[8.826s] Invoked command in '/home/ign/Desktop/ros2_ws/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/custom_msg -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/custom_msg
+[8.831s] Invoking command in '/home/ign/Desktop/ros2_ws/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/custom_msg -- -j4 -l4
+[8.889s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.890s] [35m[1mScanning dependencies of target custom_msg__cpp[0m
+[8.905s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.695s] [  5%] Built target custom_msg__cpp
+[9.719s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.719s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.813s] [35m[1mScanning dependencies of target custom_msg__rosidl_generator_c[0m
+[9.868s] [ 13%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/msg/num__functions.c.o[0m
+[9.869s] [ 16%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_generator_c.dir/rosidl_generator_c/custom_msg/srv/add_three_ints__functions.c.o[0m
+[10.307s] [ 18%] [32m[1mLinking C shared library libcustom_msg__rosidl_generator_c.so[0m
+[10.374s] [ 18%] Built target custom_msg__rosidl_generator_c
+[10.396s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.522s] [35m[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_cpp[0m
+[10.535s] [35m[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_cpp[0m
+[10.685s] [ 24%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/srv/add_three_ints__type_support.cpp.o[0m
+[10.690s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_msg/msg/num__type_support.cpp.o[0m
+[10.915s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/msg/dds_fastrtps/num__type_support.cpp.o[0m
+[10.947s] [35m[1mScanning dependencies of target custom_msg__rosidl_typesupport_introspection_c[0m
+[10.999s] [ 32%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/msg/num__type_support.c.o[0m
+[11.036s] [ 35%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_msg/srv/add_three_ints__type_support.c.o[0m
+[11.075s] [ 37%] [32m[1mLinking C shared library libcustom_msg__rosidl_typesupport_introspection_c.so[0m
+[11.117s] [ 37%] Built target custom_msg__rosidl_typesupport_introspection_c
+[11.133s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_msg/srv/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[12.536s] [ 43%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_introspection_cpp.so[0m
+[12.620s] [ 43%] Built target custom_msg__rosidl_typesupport_introspection_cpp
+[12.884s] [ 45%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.102s] [ 45%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp
+[13.123s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.124s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.546s] [35m[1mScanning dependencies of target custom_msg__rosidl_typesupport_cpp[0m
+[13.601s] [ 54%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/msg/num__type_support.cpp.o[0m
+[13.603s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_msg/srv/add_three_ints__type_support.cpp.o[0m
+[13.648s] [35m[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_c[0m
+[13.716s] [ 59%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/msg/num__type_support_c.cpp.o[0m
+[13.724s] [ 62%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_msg/srv/add_three_ints__type_support_c.cpp.o[0m
+[14.297s] [ 64%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_cpp.so[0m
+[14.386s] [ 67%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_fastrtps_c.so[0m
+[14.442s] [ 67%] Built target custom_msg__rosidl_typesupport_cpp
+[14.512s] [ 67%] Built target custom_msg__rosidl_typesupport_fastrtps_c
+[14.527s] [ 70%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.000s] [35m[1mScanning dependencies of target custom_msg__rosidl_typesupport_c[0m
+[15.024s] [ 75%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/msg/num__type_support.cpp.o[0m
+[15.024s] [ 75%] [32mBuilding CXX object CMakeFiles/custom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_msg/srv/add_three_ints__type_support.cpp.o[0m
+[15.066s] [ 78%] [32m[1mLinking CXX shared library libcustom_msg__rosidl_typesupport_c.so[0m
+[15.136s] [ 78%] Built target custom_msg__rosidl_typesupport_c
+[15.151s] [35m[1mScanning dependencies of target custom_msg[0m
+[15.166s] [ 78%] Built target custom_msg
+[15.181s] [35m[1mScanning dependencies of target custom_msg__py[0m
+[15.196s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.078s] [ 81%] Built target custom_msg__py
+[16.093s] [35m[1mScanning dependencies of target custom_msg__python[0m
+[16.285s] [ 86%] [32mBuilding C object CMakeFiles/custom_msg__python.dir/rosidl_generator_py/custom_msg/msg/_num_s.c.o[0m
+[16.285s] [ 86%] [32mBuilding C object CMakeFiles/custom_msg__python.dir/rosidl_generator_py/custom_msg/srv/_add_three_ints_s.c.o[0m
+[16.672s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg/libcustom_msg__python.so[0m
+[16.744s] [ 89%] Built target custom_msg__python
+[16.759s] [35m[1mScanning dependencies of target custom_msg__rosidl_typesupport_c__pyext[0m
+[16.759s] [35m[1mScanning dependencies of target custom_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[16.814s] [ 91%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[16.814s] [ 94%] [32mBuilding C object CMakeFiles/custom_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_msg/_custom_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.919s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[16.919s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[16.984s] [100%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext
+[16.984s] [100%] Built target custom_msg__rosidl_typesupport_c__pyext
+[17.000s] Invoked command in '/home/ign/Desktop/ros2_ws/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/custom_msg -- -j4 -l4
+[17.149s] Invoking command in '/home/ign/Desktop/ros2_ws/build/custom_msg': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/custom_msg --target install -- -j4 -l4
+[17.224s] [  2%] Built target custom_msg__cpp
+[17.224s] [ 13%] Built target custom_msg__rosidl_generator_c
+[17.264s] [ 24%] Built target custom_msg__rosidl_typesupport_introspection_c
+[17.269s] [ 35%] Built target custom_msg__rosidl_typesupport_introspection_cpp
+[17.270s] [ 45%] Built target custom_msg__rosidl_typesupport_fastrtps_cpp
+[17.315s] [ 67%] Built target custom_msg__rosidl_typesupport_fastrtps_c
+[17.315s] [ 67%] Built target custom_msg__rosidl_typesupport_cpp
+[17.351s] [ 78%] Built target custom_msg__rosidl_typesupport_c
+[17.380s] [ 78%] Built target custom_msg
+[17.411s] [ 81%] Built target custom_msg__py
+[17.449s] [ 89%] Built target custom_msg__python
+[17.486s] [ 94%] Built target custom_msg__rosidl_typesupport_fastrtps_c__pyext
+[17.486s] [100%] Built target custom_msg__rosidl_typesupport_c__pyext
+[17.514s] [36mInstall the project...[0m
+[17.527s] -- Install configuration: ""
+[17.527s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/ament_index/resource_index/rosidl_interfaces/custom_msg
+[17.527s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so
+[17.528s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_c.so" to ""
+[17.528s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/environment/library_path.sh
+[17.529s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so
+[17.529s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_cpp.so" to ""
+[17.529s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg
+[17.530s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg
+[17.530s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__rosidl_typesupport_fastrtps_c.h
+[17.530s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.530s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv
+[17.531s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[17.531s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so
+[17.531s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[17.531s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg
+[17.532s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg
+[17.532s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__type_support.h
+[17.532s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num.h
+[17.532s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__functions.h
+[17.533s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/rosidl_generator_c__visibility_control.h
+[17.533s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__struct.h
+[17.533s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__functions.c
+[17.533s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv
+[17.533s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__functions.c
+[17.534s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__type_support.h
+[17.534s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__struct.h
+[17.534s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__functions.h
+[17.534s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints.h
+[17.534s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so
+[17.535s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_generator_c.so" to ""
+[17.535s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg
+[17.535s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg
+[17.535s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/dds_fastrtps
+[17.535s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__rosidl_typesupport_fastrtps_cpp.hpp
+[17.536s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.536s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv
+[17.536s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[17.537s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/dds_fastrtps
+[17.537s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so
+[17.537s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.537s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg
+[17.537s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg
+[17.537s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__struct.hpp
+[17.538s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num.hpp
+[17.538s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__traits.hpp
+[17.538s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv
+[17.538s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints.hpp
+[17.538s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__struct.hpp
+[17.538s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__traits.hpp
+[17.538s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg
+[17.538s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg
+[17.539s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__type_support.c
+[17.539s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.539s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__rosidl_typesupport_introspection_c.h
+[17.539s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv
+[17.539s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__rosidl_typesupport_introspection_c.h
+[17.539s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__type_support.c
+[17.539s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so
+[17.539s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_c.so" to ""
+[17.539s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg
+[17.540s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg
+[17.540s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__rosidl_typesupport_introspection_cpp.hpp
+[17.540s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/msg/num__type_support.cpp
+[17.540s] -- Up-to-date: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv
+[17.540s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[17.540s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/include/custom_msg/srv/add_three_ints__type_support.cpp
+[17.540s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so
+[17.540s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[17.541s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/environment/pythonpath.sh
+[17.541s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/__init__.py
+[17.693s] Compiling '/home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/__init__.py'...
+[17.699s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/msg
+[17.700s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/msg/_num.py
+[17.700s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/msg/__init__.py
+[17.700s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/msg/_num_s.c
+[17.700s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/srv
+[17.700s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/srv/_add_three_ints_s.c
+[17.700s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/srv/__init__.py
+[17.700s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/srv/_add_three_ints.py
+[17.701s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[17.701s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[17.701s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[17.702s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/python3.6/site-packages/custom_msg/custom_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[17.702s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__python.so
+[17.703s] -- Set runtime path of "/home/ign/Desktop/ros2_ws/install/custom_msg/lib/libcustom_msg__python.so" to ""
+[17.703s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/msg/Num.idl
+[17.703s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/srv/AddThreeInts.idl
+[17.703s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/msg/Num.msg
+[17.703s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/srv/AddThreeInts.srv
+[17.704s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/srv/AddThreeInts_Request.msg
+[17.704s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/srv/AddThreeInts_Response.msg
+[17.704s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/ament_index/resource_index/package_run_dependencies/custom_msg
+[17.704s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/ament_index/resource_index/parent_prefix_path/custom_msg
+[17.705s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/environment/ament_prefix_path.sh
+[17.705s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/environment/path.sh
+[17.706s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/local_setup.bash
+[17.706s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/local_setup.sh
+[17.706s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/local_setup.zsh
+[17.706s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/ament_index/resource_index/packages/custom_msg
+[17.707s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/rosidl_cmake-extras.cmake
+[17.707s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[17.707s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.707s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig.cmake
+[17.707s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/cmake/custom_msgConfig-version.cmake
+[17.708s] -- Installing: /home/ign/Desktop/ros2_ws/install/custom_msg/share/custom_msg/package.xml
+[17.712s] Invoked command in '/home/ign/Desktop/ros2_ws/build/custom_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake --build /home/ign/Desktop/ros2_ws/build/custom_msg --target install -- -j4 -l4

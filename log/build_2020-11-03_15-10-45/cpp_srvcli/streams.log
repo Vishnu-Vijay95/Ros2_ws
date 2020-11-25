@@ -1,0 +1,20 @@
+[0.017s] Invoking command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli
+[0.038s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.341s] -- Found rclcpp: 0.7.14 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.358s] -- Found rosidl_adapter: 0.7.9 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.399s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.434s] -- Found example_interfaces: 0.7.1 (/opt/ros/dashing/share/example_interfaces/cmake)
+[0.576s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[0.577s] CMake Error at /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake:18 (message):
+[0.577s]   find_package(ament_lint_auto) must be called before ament_package()
+[0.577s] Call Stack (most recent call first):
+[0.577s]   /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake:38 (include)
+[0.577s]   CMakeLists.txt:38 (find_package)
+[0.577s] 
+[0.577s] 
+[0.578s] -- Configuring incomplete, errors occurred!
+[0.578s] See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeOutput.log".
+[0.578s] See also "/home/ign/Desktop/ros2_ws/build/cpp_srvcli/CMakeFiles/CMakeError.log".
+[0.582s] Invoked command in '/home/ign/Desktop/ros2_ws/build/cpp_srvcli' returned '1': CMAKE_PREFIX_PATH=/opt/ros/dashing SHLVL=2 _=/usr/bin/env /usr/bin/cmake /home/ign/Desktop/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/ign/Desktop/ros2_ws/install/cpp_srvcli

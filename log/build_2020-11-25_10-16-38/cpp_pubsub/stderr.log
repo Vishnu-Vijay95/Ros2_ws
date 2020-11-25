@@ -1,0 +1,8 @@
+[01m[K/home/ign/Desktop/ros2_ws/cpp_pubsub/src/member2.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/ign/Desktop/ros2_ws/cpp_pubsub/src/member2.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+     [01;31m[K}[m[K
+     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/listener.dir/src/member2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/listener.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2
