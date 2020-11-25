@@ -11,4 +11,6 @@ The Ros2_ws directory contains ros2 packages which are:
 
 4. A CPP package cpp_srvcli for implementing service client implementation in ROS2 
 
-5. A PYTHON package py_srvcli for implementing service client implementation in <b>ROS2</b> 
+5. A <h1>PYTHON</h1> package py_srvcli for implementing service client implementation in ROS2
+
+
